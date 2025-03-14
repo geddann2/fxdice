@@ -13,7 +13,7 @@ public class Dice {
         Random rand = new Random();
         this.number = rand.nextInt(6) + 1; //1～6
     }
-    //１～６までの数値を返すようにするyo
+    //１～６までの数値を返すようにするyoaa
     public int getNumber(){
         return this.number;
     }
