@@ -5,15 +5,15 @@ public class Dice {
     private int number = 1;
     //コンストラクタ 初期化処理
     public Dice() {
-        //初期化処理として、１回サイコロを転がしておく
+        //初期化処理として、１回サイコロを転がしておくze
         rollDice();
     }
-    //サイコロを転がす
+    //サイコロを転がすka
     public void rollDice(){
         Random rand = new Random();
         this.number = rand.nextInt(6) + 1; //1～6
     }
-    //１～６までの数値を返すようにする
+    //１～６までの数値を返すようにするyo
     public int getNumber(){
         return this.number;
     }
